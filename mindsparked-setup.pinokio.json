@@ -1,0 +1,14 @@
+{
+  "name": "MindSparked Setup",
+  "description": "Automates cloning and setting up the MindSparked environment",
+  "version": "1.0.0",
+  "run": [
+    {
+      "method": "git.clone",
+      "params": {
+        "repo": "https://github.com/mindsparkedtoday-glitch/mindsparked-setup",
+        "target": "C:\\Leo\\MindSparked"
+      }
+    }
+  ]
+}
